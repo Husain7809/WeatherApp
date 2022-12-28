@@ -57,6 +57,8 @@ const Weatherapp =()=>{
         month='November'
     else if(current.getMonth()+1===12)
         month='December'
+    else
+        month=""
 
 
 
